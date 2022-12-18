@@ -1,0 +1,56 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+  margin: 0;
+  height: 100vh;
+
+  color: #060507;
+
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.container {
+  position: absolute;
+  height: 100vh;
+  background-image: url(".././img/background-create-an-account.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: bottom;
+
+  animation: teste 200s infinite;
+  z-index: -1;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+main {
+  width: 650px;
+  font-size: 23px;
+}
+
+@keyframes teste {
+  0% {
+    top: -600px;
+    right: -400px;
+    transform: rotate(0deg);
+  }
+  25% {
+    top: 400px;
+    right: 500px;
+  }
+  50% {
+    bottom: 0px;
+    right: 0px;
+  }
+  100% {
+    right: 0px;
+    bottom: 0px;
+    transform: rotate(600deg);
+  }
+}

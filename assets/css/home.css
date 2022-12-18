@@ -1,0 +1,110 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+  padding: 40px;
+
+  background-image: url("../img/background-create-an-account.jpg");
+  background-repeat: repeat-x;
+  background-size: 1800px;
+  background-position-x: 1000px;
+  background-position-y: 400px;
+}
+
+input {
+  height: 40px;
+  width: 500px;
+  border: 1.5px solid #880ff3;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 40px;
+}
+
+.input-details {
+  width: 60vw;
+  margin-left: 30px;
+}
+
+.btn-close {
+  background-size: 25px;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.btn-save {
+  width: 10vw;
+  height: 45px;
+  padding: 10px;
+  margin-left: 30px;
+  background-image: linear-gradient(to bottom right, #f12dba, #880ff3);
+}
+
+.btn-light {
+  border: 1.5px solid #880ff3 !important;
+}
+
+#input-detailing {
+  width: 50vw;
+  height: 4vh;
+  margin: 0px;
+
+  text-align: center;
+}
+#input-description {
+  width: 20vw;
+  height: 4vh;
+  margin: 0px;
+
+  text-align: center;
+}
+
+#th-numero {
+  width: 5vw;
+  margin-right: 10px;
+}
+
+.td-column-errands-ID {
+  font-weight: bolder;
+}
+.td-description {
+  text-align: center;
+  width: 15vw;
+}
+.td-detailing {
+  text-align: center;
+  margin: 0;
+  width: 50vw;
+}
+
+.td-action,
+#th-action,
+#th-detailing,
+#th-description {
+  text-align: center;
+}
+
+#editBtn {
+  width: 100px;
+  border-radius: 10px;
+  background-color: #198754;
+  color: #ffffff;
+  padding: 6px 12px;
+  height: 40px;
+}
+#deleteBtn {
+  width: 100px;
+  border-radius: 10px;
+  background-color: #dc3545;
+  color: #ffffff;
+  padding: 6px 12px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.errand-list-table {
+  width: 100vw;
+}

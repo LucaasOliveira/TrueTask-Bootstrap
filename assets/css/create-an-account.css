@@ -1,0 +1,35 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+  margin: 0;
+  height: 100vh;
+
+  color: #262328;
+
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-around;
+  align-items: center;
+
+  text-align: center;
+
+  background-image: url("../img/background-create-an-account.jpg");
+  background-repeat: no-repeat;
+  background-size: 3000px;
+  background-position-x: -300px;
+  background-position-y: -600px;
+}
+input {
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+header {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+header h1 {
+  border-bottom: 2px solid #060507;
+}
